@@ -293,7 +293,7 @@ def kfold_lightgbm(df, num_folds, stratified=False, debug=False):
 
         # LightGBM parameters found by Bayesian optimization
         clf = LGBMClassifier(
-            nthread=4,
+            nthread=6,
             # is_unbalance=True,
             n_estimators=10000,
             learning_rate=0.02,
@@ -347,6 +347,34 @@ def display_importances(feature_importance_df_):
     plt.savefig('lgbm_importances01.png')
 
 
+def merge_my_features(df):
+    df_train = pd.read_csv("../data/handled/train.csv", index_col=0)
+    df_test = pd.read_csv("../data/handled/test.csv", index_col=0)
+    gen_columns = [i for i in df_train.columns if "_DUMMY" in i]
+    df_train = df_train[gen_columns]
+    df_test = df_test[gen_columns]
+    temp = pd.concat((df_train, df_test))
+    df = df.join(temp, how='left', on='SK_ID_CURR')
+    gc.collect()
+    return df
+
+
+def imputer_data(df):
+    from sklearn.preprocessing import Imputer
+    im = Imputer(strategy='mean')
+    select_features = df.columns[df.isnull().sum()/df.shape[0] <= 0.9]
+    df = df.loc[:, select_features]
+
+    def imputer_by_mean(col):
+        if col.name == 'TARGET':
+            return col
+        mean = np.mean(col)
+        col = col.map(lambda x: mean if pd.isnull(x) else x)
+        return col
+
+    return df.apply(imputer_by_mean, axis=0)
+
+
 def main(debug=False):
     num_rows = 10000 if debug else None
     df = application_train_test(num_rows)
@@ -380,8 +408,13 @@ def main(debug=False):
         df = df.join(cc, how='left', on='SK_ID_CURR')
         del cc
         gc.collect()
+    df = merge_my_features(df)
+    print("merged my features")
+    df = imputer_data(df)
+    gc.collect()
+    print("imputed by mean")
     with timer("Run LightGBM with kfold"):
-        feat_importance = kfold_lightgbm(df, num_folds=11, stratified=False, debug=debug)
+        feat_importance = kfold_lightgbm(df, num_folds=5, stratified=False, debug=debug)
 
 
 if __name__ == "__main__":
