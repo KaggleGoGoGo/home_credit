@@ -58,15 +58,15 @@ params_lgb = {
 
 - 添加自己的特征 （已完成，效果下降）
 - mean imputer（在原来基础上还没做）
-- feature tools 特征选择
+- * feature tools 特征选择+自己加特征
 - lgb 特征选择
 - 手动添加特征并且挨个测试（注意high cate feature用聚类解决)
-- RobustScale &  Standard Scale
-- 按照时间远近加权聚合
+- * RobustScale &  Standard Scale
+- * 按照时间远近加权聚合
 - ... ... 
 
 ## 修改模型
 
 - auto sklearn
-- model stacking
+- * model stacking
 - bayes 重新调参

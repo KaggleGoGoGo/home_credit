@@ -1,0 +1,802 @@
+nohup: 忽略输入
+[31mInitialization[0m
+[94m------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |   colsample_bytree |   learning_rate |   max_depth |   min_child_weight |   min_split_gain |   num_leaves |   reg_alpha |   reg_lambda |   subsample | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.809087	valid_1's auc: 0.785839
+[2000]	training's auc: 0.830663	valid_1's auc: 0.791766
+[3000]	training's auc: 0.846635	valid_1's auc: 0.793832
+[4000]	training's auc: 0.85988	valid_1's auc: 0.794841
+[5000]	training's auc: 0.871472	valid_1's auc: 0.795308
+[6000]	training's auc: 0.881708	valid_1's auc: 0.795563
+Early stopping, best iteration is:
+[6031]	training's auc: 0.882038	valid_1's auc: 0.795572
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.809474	valid_1's auc: 0.783348
+[2000]	training's auc: 0.830589	valid_1's auc: 0.789414
+[3000]	training's auc: 0.846875	valid_1's auc: 0.791478
+[4000]	training's auc: 0.860607	valid_1's auc: 0.792398
+[5000]	training's auc: 0.872167	valid_1's auc: 0.792914
+Early stopping, best iteration is:
+[4802]	training's auc: 0.87004	valid_1's auc: 0.792946
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.809352	valid_1's auc: 0.78509
+[2000]	training's auc: 0.830483	valid_1's auc: 0.789852
+[3000]	training's auc: 0.845913	valid_1's auc: 0.791431
+Early stopping, best iteration is:
+[3232]	training's auc: 0.849168	valid_1's auc: 0.791583
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.809167	valid_1's auc: 0.786308
+[2000]	training's auc: 0.829888	valid_1's auc: 0.790802
+[3000]	training's auc: 0.846148	valid_1's auc: 0.792419
+[4000]	training's auc: 0.859471	valid_1's auc: 0.793024
+Early stopping, best iteration is:
+[4272]	training's auc: 0.862721	valid_1's auc: 0.793174
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.81026	valid_1's auc: 0.780093
+[2000]	training's auc: 0.830716	valid_1's auc: 0.785714
+[3000]	training's auc: 0.846319	valid_1's auc: 0.787777
+[4000]	training's auc: 0.85976	valid_1's auc: 0.788767
+[5000]	training's auc: 0.871688	valid_1's auc: 0.789145
+[6000]	training's auc: 0.882242	valid_1's auc: 0.789279
+Early stopping, best iteration is:
+[5931]	training's auc: 0.881578	valid_1's auc: 0.789319
+    1 | 24m52s | [35m   0.79246[0m | [32m            0.5000[0m | [32m         0.0100[0m | [32m     5.0000[0m | [32m           20.0000[0m | [32m          0.0222[0m | [32m     20.0000[0m | [32m     0.0400[0m | [32m      0.0730[0m | [32m     0.8000[0m | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.859085	valid_1's auc: 0.793615
+Early stopping, best iteration is:
+[1629]	training's auc: 0.886948	valid_1's auc: 0.794636
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.858905	valid_1's auc: 0.790804
+Early stopping, best iteration is:
+[1579]	training's auc: 0.884817	valid_1's auc: 0.791843
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.859384	valid_1's auc: 0.791162
+Early stopping, best iteration is:
+[1548]	training's auc: 0.884213	valid_1's auc: 0.791872
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.859381	valid_1's auc: 0.792083
+Early stopping, best iteration is:
+[1422]	training's auc: 0.878931	valid_1's auc: 0.792623
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.860213	valid_1's auc: 0.788052
+Early stopping, best iteration is:
+[1776]	training's auc: 0.893936	valid_1's auc: 0.788733
+    2 | 19m00s |    0.79191 |             0.9500 |          0.0200 |      8.0000 |            40.0000 |           0.1000 |      32.0000 |      0.1000 |       0.2000 |      0.8700 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[165]	training's auc: 0.876596	valid_1's auc: 0.790281
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[179]	training's auc: 0.88258	valid_1's auc: 0.787874
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[171]	training's auc: 0.879273	valid_1's auc: 0.788549
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[195]	training's auc: 0.88817	valid_1's auc: 0.789536
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[170]	training's auc: 0.879322	valid_1's auc: 0.784309
+    3 | 06m38s |    0.78809 |             0.9900 |          0.1000 |     15.0000 |            50.0000 |           0.2000 |      50.0000 |      0.2000 |       0.5000 |      0.9500 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[58]	training's auc: 0.865163	valid_1's auc: 0.784197
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[63]	training's auc: 0.867594	valid_1's auc: 0.780096
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[56]	training's auc: 0.867312	valid_1's auc: 0.780809
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[55]	training's auc: 0.867499	valid_1's auc: 0.779102
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[71]	training's auc: 0.868563	valid_1's auc: 0.778423
+    4 | 02m33s |    0.78050 |             0.7555 |          0.2913 |     13.4514 |            38.8656 |           1.9814 |      78.0519 |      7.4711 |       9.0274 |      0.9629 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[83]	training's auc: 0.822083	valid_1's auc: 0.785978
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[83]	training's auc: 0.82268	valid_1's auc: 0.784823
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[82]	training's auc: 0.822332	valid_1's auc: 0.785406
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[83]	training's auc: 0.822889	valid_1's auc: 0.784829
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[80]	training's auc: 0.822095	valid_1's auc: 0.780471
+    5 | 02m19s |    0.78428 |             0.5621 |          0.2209 |      6.9152 |            20.2620 |           4.8677 |      46.7475 |      6.3284 |       9.6702 |      0.9666 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[30]	training's auc: 0.80332	valid_1's auc: 0.777793
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[33]	training's auc: 0.804509	valid_1's auc: 0.775057
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[34]	training's auc: 0.805628	valid_1's auc: 0.775076
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[30]	training's auc: 0.80394	valid_1's auc: 0.777321
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[35]	training's auc: 0.805766	valid_1's auc: 0.769181
+    6 | 02m02s |    0.77482 |             0.5264 |          0.4461 |      9.9990 |            19.4367 |           9.8232 |      72.0747 |      8.3420 |       9.2414 |      0.9386 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[379]	training's auc: 0.815107	valid_1's auc: 0.788611
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[379]	training's auc: 0.815637	valid_1's auc: 0.786776
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[396]	training's auc: 0.816025	valid_1's auc: 0.78776
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[390]	training's auc: 0.815489	valid_1's auc: 0.788435
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[386]	training's auc: 0.816082	valid_1's auc: 0.78288
+    7 | 03m51s |    0.78687 |             0.6425 |          0.0382 |      5.5105 |            21.4831 |           6.9558 |      58.5447 |      3.5301 |       3.2946 |      0.9180 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[41]	training's auc: 0.813555	valid_1's auc: 0.781445
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[37]	training's auc: 0.814236	valid_1's auc: 0.77957
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[45]	training's auc: 0.814212	valid_1's auc: 0.779456
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[38]	training's auc: 0.814551	valid_1's auc: 0.779015
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[38]	training's auc: 0.814778	valid_1's auc: 0.775139
+    8 | 02m19s |    0.77891 |             0.8267 |          0.3091 |      9.1422 |            16.0932 |           8.7952 |      46.1262 |      1.4384 |       8.8379 |      0.8946 | 
+[31mBayesian Optimization[0m
+[94m------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |   colsample_bytree |   learning_rate |   max_depth |   min_child_weight |   min_split_gain |   num_leaves |   reg_alpha |   reg_lambda |   subsample | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[42]	training's auc: 0.886452	valid_1's auc: 0.771411
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[38]	training's auc: 0.876417	valid_1's auc: 0.771958
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[39]	training's auc: 0.880432	valid_1's auc: 0.771649
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[23]	training's auc: 0.85045	valid_1's auc: 0.772777
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[33]	training's auc: 0.869808	valid_1's auc: 0.76836
+    9 | 04m05s |    0.77112 |             0.7745 |          0.3113 |      7.1268 |             1.1198 |           0.1613 |     101.8008 |      0.0595 |       0.5206 |      0.9070 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[471]	training's auc: 0.860348	valid_1's auc: 0.792808
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.907311	valid_1's auc: 0.791207
+Early stopping, best iteration is:
+[847]	training's auc: 0.895999	valid_1's auc: 0.791833
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[542]	training's auc: 0.86792	valid_1's auc: 0.79068
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[524]	training's auc: 0.866607	valid_1's auc: 0.791609
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[612]	training's auc: 0.875287	valid_1's auc: 0.78837
+   10 | 06m04s |    0.79102 |             0.6094 |          0.0863 |      5.0131 |            49.3896 |           0.3024 |     112.0740 |      5.4467 |       0.1510 |      0.8031 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[47]	training's auc: 0.823877	valid_1's auc: 0.778338
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[48]	training's auc: 0.826713	valid_1's auc: 0.778441
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[64]	training's auc: 0.835905	valid_1's auc: 0.777105
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[44]	training's auc: 0.823742	valid_1's auc: 0.778175
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[62]	training's auc: 0.834795	valid_1's auc: 0.772024
+   11 | 03m18s |    0.77675 |             0.8464 |          0.4965 |      5.7818 |            49.1799 |           0.4770 |      61.5959 |      9.8214 |       0.7716 |      0.9960 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[81]	training's auc: 0.812549	valid_1's auc: 0.784499
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[77]	training's auc: 0.811184	valid_1's auc: 0.783195
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[79]	training's auc: 0.813265	valid_1's auc: 0.783034
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[74]	training's auc: 0.812658	valid_1's auc: 0.785259
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[71]	training's auc: 0.811882	valid_1's auc: 0.777007
+   12 | 02m24s |    0.78256 |             0.5287 |          0.2456 |      5.6380 |            48.4979 |           7.1068 |     118.4922 |      0.2520 |       9.8962 |      0.8644 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[191]	training's auc: 0.861889	valid_1's auc: 0.791216
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[179]	training's auc: 0.859774	valid_1's auc: 0.789137
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[175]	training's auc: 0.859053	valid_1's auc: 0.788362
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[132]	training's auc: 0.847676	valid_1's auc: 0.78988
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[167]	training's auc: 0.85771	valid_1's auc: 0.786192
+   13 | 03m43s |    0.78894 |             0.9064 |          0.1544 |     14.6474 |            22.3437 |           1.3389 |      30.5437 |      8.8223 |       0.0377 |      0.9544 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[35]	training's auc: 0.845033	valid_1's auc: 0.773653
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[35]	training's auc: 0.842862	valid_1's auc: 0.769185
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[34]	training's auc: 0.846549	valid_1's auc: 0.772764
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[34]	training's auc: 0.84373	valid_1's auc: 0.773983
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[34]	training's auc: 0.846231	valid_1's auc: 0.768507
+   14 | 02m32s |    0.77159 |             0.7589 |          0.4260 |     14.4269 |            45.0683 |           4.8664 |     119.3175 |      1.5664 |       0.1938 |      0.8028 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[30]	training's auc: 0.840796	valid_1's auc: 0.774471
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[22]	training's auc: 0.826999	valid_1's auc: 0.773361
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[24]	training's auc: 0.829753	valid_1's auc: 0.771181
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[22]	training's auc: 0.825365	valid_1's auc: 0.773771
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[26]	training's auc: 0.835146	valid_1's auc: 0.770225
+   15 | 03m20s |    0.77254 |             0.6489 |          0.3987 |     14.1055 |             7.6175 |           0.2308 |      46.7609 |      0.3404 |       0.8205 |      0.9307 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.875682	valid_1's auc: 0.795752
+Early stopping, best iteration is:
+[1365]	training's auc: 0.89667	valid_1's auc: 0.796618
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.874982	valid_1's auc: 0.792476
+Early stopping, best iteration is:
+[1371]	training's auc: 0.895397	valid_1's auc: 0.792918
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.876709	valid_1's auc: 0.792855
+Early stopping, best iteration is:
+[1659]	training's auc: 0.909723	valid_1's auc: 0.793756
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.875075	valid_1's auc: 0.793135
+Early stopping, best iteration is:
+[1078]	training's auc: 0.879902	valid_1's auc: 0.79332
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.878035	valid_1's auc: 0.789188
+Early stopping, best iteration is:
+[1651]	training's auc: 0.911462	valid_1's auc: 0.790265
+   16 | 12m21s | [35m   0.79334[0m | [32m            0.7169[0m | [32m         0.0296[0m | [32m     6.3912[0m | [32m           12.9244[0m | [32m          0.4161[0m | [32m    119.0617[0m | [32m     9.8791[0m | [32m      9.2654[0m | [32m     0.9800[0m | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.812066	valid_1's auc: 0.786023
+[2000]	training's auc: 0.831505	valid_1's auc: 0.791928
+[3000]	training's auc: 0.847142	valid_1's auc: 0.794214
+[4000]	training's auc: 0.860533	valid_1's auc: 0.795514
+[5000]	training's auc: 0.873045	valid_1's auc: 0.796289
+[6000]	training's auc: 0.884012	valid_1's auc: 0.796728
+Early stopping, best iteration is:
+[5949]	training's auc: 0.883489	valid_1's auc: 0.79677
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.812832	valid_1's auc: 0.783458
+[2000]	training's auc: 0.831533	valid_1's auc: 0.788835
+[3000]	training's auc: 0.846639	valid_1's auc: 0.791268
+[4000]	training's auc: 0.859596	valid_1's auc: 0.792534
+[5000]	training's auc: 0.871141	valid_1's auc: 0.793248
+Early stopping, best iteration is:
+[5537]	training's auc: 0.877172	valid_1's auc: 0.793506
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.812469	valid_1's auc: 0.784845
+[2000]	training's auc: 0.831454	valid_1's auc: 0.789919
+[3000]	training's auc: 0.847182	valid_1's auc: 0.792024
+[4000]	training's auc: 0.860822	valid_1's auc: 0.793078
+[5000]	training's auc: 0.872623	valid_1's auc: 0.793524
+Early stopping, best iteration is:
+[5276]	training's auc: 0.875665	valid_1's auc: 0.793612
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.812435	valid_1's auc: 0.786463
+[2000]	training's auc: 0.831791	valid_1's auc: 0.791127
+[3000]	training's auc: 0.846746	valid_1's auc: 0.792844
+[4000]	training's auc: 0.859557	valid_1's auc: 0.793561
+[5000]	training's auc: 0.871594	valid_1's auc: 0.793911
+Early stopping, best iteration is:
+[4918]	training's auc: 0.870735	valid_1's auc: 0.793947
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.813873	valid_1's auc: 0.780189
+[2000]	training's auc: 0.833285	valid_1's auc: 0.785815
+[3000]	training's auc: 0.848835	valid_1's auc: 0.788157
+[4000]	training's auc: 0.862196	valid_1's auc: 0.789596
+[5000]	training's auc: 0.873826	valid_1's auc: 0.790175
+Early stopping, best iteration is:
+[5106]	training's auc: 0.87508	valid_1's auc: 0.790217
+   17 | 28m15s | [35m   0.79360[0m | [32m            0.5000[0m | [32m         0.0100[0m | [32m     5.0000[0m | [32m           29.7203[0m | [32m          0.0000[0m | [32m    120.0000[0m | [32m     3.9027[0m | [32m      8.6989[0m | [32m     1.0000[0m | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[212]	training's auc: 0.804911	valid_1's auc: 0.785799
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[211]	training's auc: 0.805579	valid_1's auc: 0.78353
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[213]	training's auc: 0.805621	valid_1's auc: 0.785159
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[208]	training's auc: 0.804775	valid_1's auc: 0.785265
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[212]	training's auc: 0.806054	valid_1's auc: 0.779672
+   18 | 03m09s |    0.78385 |             0.5852 |          0.0603 |      5.2062 |            29.8255 |           9.4942 |     118.0805 |      9.1119 |       0.3457 |      0.9555 | 
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[121]	training's auc: 0.811038	valid_1's auc: 0.786971
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[118]	training's auc: 0.811345	valid_1's auc: 0.78354
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[125]	training's auc: 0.811787	valid_1's auc: 0.784558
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[122]	training's auc: 0.811299	valid_1's auc: 0.786049
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[127]	training's auc: 0.812575	valid_1's auc: 0.780246
+   19 | 02m52s |    0.78424 |             0.5892 |          0.0797 |     12.5920 |            46.1448 |           9.6591 |      31.2124 |      0.3658 |       2.2107 |      0.8272 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[691]	training's auc: 0.883735	valid_1's auc: 0.79405
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.906078	valid_1's auc: 0.792153
+Early stopping, best iteration is:
+[891]	training's auc: 0.897971	valid_1's auc: 0.792633
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.906059	valid_1's auc: 0.790714
+Early stopping, best iteration is:
+[842]	training's auc: 0.893982	valid_1's auc: 0.791071
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[705]	training's auc: 0.883034	valid_1's auc: 0.791993
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.907552	valid_1's auc: 0.788564
+Early stopping, best iteration is:
+[842]	training's auc: 0.895732	valid_1's auc: 0.788931
+   20 | 09m53s |    0.79172 |             0.9027 |          0.0552 |      6.3523 |            47.5861 |           0.1035 |     115.4226 |      8.8872 |       9.0936 |      0.9785 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.845289	valid_1's auc: 0.793322
+[2000]	training's auc: 0.884115	valid_1's auc: 0.795503
+Early stopping, best iteration is:
+[1920]	training's auc: 0.881434	valid_1's auc: 0.795549
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.845187	valid_1's auc: 0.790745
+[2000]	training's auc: 0.882231	valid_1's auc: 0.792981
+Early stopping, best iteration is:
+[2291]	training's auc: 0.891215	valid_1's auc: 0.793189
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.8451	valid_1's auc: 0.79131
+[2000]	training's auc: 0.883057	valid_1's auc: 0.793144
+Early stopping, best iteration is:
+[1986]	training's auc: 0.882631	valid_1's auc: 0.793172
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.845561	valid_1's auc: 0.792012
+Early stopping, best iteration is:
+[1530]	training's auc: 0.866794	valid_1's auc: 0.793029
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.847601	valid_1's auc: 0.787638
+[2000]	training's auc: 0.884883	valid_1's auc: 0.789703
+Early stopping, best iteration is:
+[1918]	training's auc: 0.882378	valid_1's auc: 0.789747
+   21 | 18m21s |    0.79292 |             0.9898 |          0.0274 |      5.9552 |            28.1287 |           0.0057 |      99.9479 |      8.2762 |       5.1281 |      0.8229 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[48]	training's auc: 0.850448	valid_1's auc: 0.777359
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[37]	training's auc: 0.841082	valid_1's auc: 0.776497
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[51]	training's auc: 0.852806	valid_1's auc: 0.775177
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[46]	training's auc: 0.847689	valid_1's auc: 0.774924
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[42]	training's auc: 0.84433	valid_1's auc: 0.772774
+   22 | 03m25s |    0.77532 |             0.9037 |          0.4370 |      6.1587 |            12.1565 |           0.4801 |     119.1648 |      9.8176 |       0.9239 |      0.9363 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[233]	training's auc: 0.869343	valid_1's auc: 0.79139
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[216]	training's auc: 0.863009	valid_1's auc: 0.78768
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[255]	training's auc: 0.873289	valid_1's auc: 0.788915
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[204]	training's auc: 0.860305	valid_1's auc: 0.788778
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[279]	training's auc: 0.880046	valid_1's auc: 0.785775
+   23 | 04m38s |    0.78847 |             0.8463 |          0.1842 |      5.0585 |             2.4103 |           0.4491 |      99.3699 |      9.6360 |       9.5376 |      0.9440 | 
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([-4.27576379e-05]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 58, 'nit': 5, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[439]	training's auc: 0.809982	valid_1's auc: 0.787607
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[439]	training's auc: 0.810402	valid_1's auc: 0.784571
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[445]	training's auc: 0.809962	valid_1's auc: 0.785844
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[444]	training's auc: 0.810087	valid_1's auc: 0.787266
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[434]	training's auc: 0.810534	valid_1's auc: 0.780767
+   24 | 05m20s |    0.78518 |             0.9039 |          0.0289 |      5.2608 |             8.7827 |           9.0742 |     114.2083 |      2.9557 |       9.8971 |      0.8317 | 
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[409]	training's auc: 0.884272	valid_1's auc: 0.793603
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[330]	training's auc: 0.870475	valid_1's auc: 0.790458
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[355]	training's auc: 0.874478	valid_1's auc: 0.79011
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[269]	training's auc: 0.859686	valid_1's auc: 0.7906
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[335]	training's auc: 0.871616	valid_1's auc: 0.785549
+   25 | 05m40s |    0.79005 |             0.5852 |          0.0783 |     14.0609 |            35.3663 |           0.2962 |      31.8454 |      0.7634 |       1.8664 |      0.8398 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[307]	training's auc: 0.85642	valid_1's auc: 0.789748
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[577]	training's auc: 0.886651	valid_1's auc: 0.789435
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[369]	training's auc: 0.8638	valid_1's auc: 0.789697
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[291]	training's auc: 0.854926	valid_1's auc: 0.791337
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[406]	training's auc: 0.871001	valid_1's auc: 0.785411
+   26 | 04m39s |    0.78905 |             0.5181 |          0.1246 |      5.2833 |            44.7339 |           0.4403 |      95.9073 |      0.0780 |       1.9133 |      0.8287 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[374]	training's auc: 0.810346	valid_1's auc: 0.787456
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[376]	training's auc: 0.810787	valid_1's auc: 0.78378
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[385]	training's auc: 0.811233	valid_1's auc: 0.785741
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[379]	training's auc: 0.810627	valid_1's auc: 0.787119
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[374]	training's auc: 0.810852	valid_1's auc: 0.780742
+   27 | 04m52s |    0.78494 |             0.9541 |          0.0321 |      5.0070 |            22.4396 |           9.5875 |      32.0864 |      2.7668 |       0.5064 |      0.9173 | 
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([0.00014879]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 44, 'nit': 2, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[199]	training's auc: 0.859129	valid_1's auc: 0.791997
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[205]	training's auc: 0.860568	valid_1's auc: 0.789654
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[188]	training's auc: 0.858803	valid_1's auc: 0.788707
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[188]	training's auc: 0.860432	valid_1's auc: 0.788309
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[186]	training's auc: 0.858577	valid_1's auc: 0.784969
+   28 | 03m21s |    0.78871 |             0.5039 |          0.1527 |     14.9645 |            49.9124 |           1.3770 |      30.1958 |      6.7433 |       0.8258 |      0.8949 | 
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([-1.63656684e-05]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 49, 'nit': 2, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([-4.62636326e-05]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 49, 'nit': 5, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.848496	valid_1's auc: 0.793113
+[2000]	training's auc: 0.883344	valid_1's auc: 0.794753
+Early stopping, best iteration is:
+[2412]	training's auc: 0.893912	valid_1's auc: 0.79507
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.849305	valid_1's auc: 0.790689
+[2000]	training's auc: 0.883399	valid_1's auc: 0.792368
+Early stopping, best iteration is:
+[1858]	training's auc: 0.879473	valid_1's auc: 0.792502
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.848437	valid_1's auc: 0.791011
+Early stopping, best iteration is:
+[1604]	training's auc: 0.870236	valid_1's auc: 0.792333
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.848406	valid_1's auc: 0.791792
+Early stopping, best iteration is:
+[1702]	training's auc: 0.873626	valid_1's auc: 0.792634
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.849567	valid_1's auc: 0.787309
+Early stopping, best iteration is:
+[1720]	training's auc: 0.874333	valid_1's auc: 0.7889
+   29 | 15m08s |    0.79226 |             0.9376 |          0.0276 |      5.1187 |            18.1286 |           1.0422 |     105.7793 |      1.4596 |       9.7236 |      0.9804 | 
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([-8.42189856e-05]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 58, 'nit': 5, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[572]	training's auc: 0.873569	valid_1's auc: 0.794991
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[577]	training's auc: 0.873208	valid_1's auc: 0.79086
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[606]	training's auc: 0.87554	valid_1's auc: 0.792148
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[457]	training's auc: 0.862279	valid_1's auc: 0.791976
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[535]	training's auc: 0.871312	valid_1's auc: 0.788376
+   30 | 05m40s |    0.79167 |             0.7173 |          0.0862 |      5.3896 |             4.7360 |           0.7672 |      30.5438 |      9.5375 |       9.5342 |      0.8662 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[762]	training's auc: 0.850089	valid_1's auc: 0.795066
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[769]	training's auc: 0.850546	valid_1's auc: 0.791264
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[787]	training's auc: 0.851145	valid_1's auc: 0.792278
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[789]	training's auc: 0.852401	valid_1's auc: 0.792218
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[792]	training's auc: 0.853191	valid_1's auc: 0.788762
+   31 | 07m35s |    0.79190 |             0.9949 |          0.0469 |      5.0354 |            26.5632 |           1.4246 |     108.3358 |      9.3609 |       9.6553 |      0.9850 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.817282	valid_1's auc: 0.78716
+[2000]	training's auc: 0.839798	valid_1's auc: 0.79264
+[3000]	training's auc: 0.856354	valid_1's auc: 0.794225
+[4000]	training's auc: 0.869308	valid_1's auc: 0.794635
+Early stopping, best iteration is:
+[4088]	training's auc: 0.870337	valid_1's auc: 0.794684
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.818268	valid_1's auc: 0.784186
+[2000]	training's auc: 0.840393	valid_1's auc: 0.789821
+[3000]	training's auc: 0.856121	valid_1's auc: 0.791644
+[4000]	training's auc: 0.869416	valid_1's auc: 0.792435
+Early stopping, best iteration is:
+[4429]	training's auc: 0.874736	valid_1's auc: 0.792627
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.817841	valid_1's auc: 0.78557
+[2000]	training's auc: 0.839946	valid_1's auc: 0.790055
+[3000]	training's auc: 0.855246	valid_1's auc: 0.791478
+[4000]	training's auc: 0.868496	valid_1's auc: 0.791882
+Early stopping, best iteration is:
+[3882]	training's auc: 0.867192	valid_1's auc: 0.791909
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.818097	valid_1's auc: 0.786849
+[2000]	training's auc: 0.839225	valid_1's auc: 0.790969
+[3000]	training's auc: 0.855301	valid_1's auc: 0.792348
+[4000]	training's auc: 0.868826	valid_1's auc: 0.792866
+Early stopping, best iteration is:
+[4142]	training's auc: 0.870548	valid_1's auc: 0.792958
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.818963	valid_1's auc: 0.781044
+[2000]	training's auc: 0.840473	valid_1's auc: 0.786544
+[3000]	training's auc: 0.856902	valid_1's auc: 0.788364
+[4000]	training's auc: 0.870202	valid_1's auc: 0.789199
+Early stopping, best iteration is:
+[4379]	training's auc: 0.875041	valid_1's auc: 0.789415
+   32 | 29m51s |    0.79230 |             0.8224 |          0.0106 |      5.7996 |            30.9240 |           0.5145 |      75.9192 |      0.1028 |       0.5743 |      0.9887 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.819282	valid_1's auc: 0.788071
+[2000]	training's auc: 0.842878	valid_1's auc: 0.793122
+[3000]	training's auc: 0.861254	valid_1's auc: 0.794999
+[4000]	training's auc: 0.876851	valid_1's auc: 0.795811
+Early stopping, best iteration is:
+[4469]	training's auc: 0.882856	valid_1's auc: 0.795992
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.819682	valid_1's auc: 0.785398
+[2000]	training's auc: 0.842958	valid_1's auc: 0.790454
+[3000]	training's auc: 0.860617	valid_1's auc: 0.792259
+[4000]	training's auc: 0.875983	valid_1's auc: 0.79303
+Early stopping, best iteration is:
+[4566]	training's auc: 0.883612	valid_1's auc: 0.793238
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.819661	valid_1's auc: 0.786475
+[2000]	training's auc: 0.843095	valid_1's auc: 0.791046
+[3000]	training's auc: 0.861263	valid_1's auc: 0.792391
+[4000]	training's auc: 0.876287	valid_1's auc: 0.792965
+[5000]	training's auc: 0.889392	valid_1's auc: 0.793206
+Early stopping, best iteration is:
+[5485]	training's auc: 0.895145	valid_1's auc: 0.793284
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.819838	valid_1's auc: 0.788095
+[2000]	training's auc: 0.842543	valid_1's auc: 0.792178
+[3000]	training's auc: 0.860238	valid_1's auc: 0.793401
+Early stopping, best iteration is:
+[3054]	training's auc: 0.861165	valid_1's auc: 0.793449
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.821319	valid_1's auc: 0.782106
+[2000]	training's auc: 0.844184	valid_1's auc: 0.787026
+[3000]	training's auc: 0.861786	valid_1's auc: 0.789053
+[4000]	training's auc: 0.876431	valid_1's auc: 0.789738
+Early stopping, best iteration is:
+[4781]	training's auc: 0.886881	valid_1's auc: 0.790002
+   33 | 24m51s |    0.79317 |             0.5990 |          0.0122 |      5.1560 |            14.6899 |           0.7934 |      79.6670 |      2.4416 |       9.6537 |      0.8219 | 
+/usr/anaconda3/lib/python3.6/site-packages/sklearn/gaussian_process/gpr.py:457: UserWarning: fmin_l_bfgs_b terminated abnormally with the  state: {'grad': array([-0.00010208]), 'task': b'ABNORMAL_TERMINATION_IN_LNSRCH', 'funcalls': 49, 'nit': 4, 'warnflag': 2}
+  " state: %s" % convergence_dict)
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.856796	valid_1's auc: 0.794005
+[2000]	training's auc: 0.897852	valid_1's auc: 0.795503
+Early stopping, best iteration is:
+[2236]	training's auc: 0.905619	valid_1's auc: 0.795622
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.8571	valid_1's auc: 0.791254
+Early stopping, best iteration is:
+[1405]	training's auc: 0.87574	valid_1's auc: 0.792117
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.857083	valid_1's auc: 0.792164
+Early stopping, best iteration is:
+[1718]	training's auc: 0.88788	valid_1's auc: 0.793046
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.856724	valid_1's auc: 0.791798
+Early stopping, best iteration is:
+[1193]	training's auc: 0.8661	valid_1's auc: 0.792267
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.857243	valid_1's auc: 0.78818
+[2000]	training's auc: 0.898402	valid_1's auc: 0.789711
+Early stopping, best iteration is:
+[1945]	training's auc: 0.896436	valid_1's auc: 0.789772
+   34 | 21m00s |    0.79253 |             0.9835 |          0.0202 |     10.5633 |            47.5038 |           0.1934 |      32.4800 |      1.9042 |       9.9852 |      0.8252 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.826179	valid_1's auc: 0.790858
+[2000]	training's auc: 0.855473	valid_1's auc: 0.795039
+[3000]	training's auc: 0.877686	valid_1's auc: 0.79632
+Early stopping, best iteration is:
+[3311]	training's auc: 0.883754	valid_1's auc: 0.796416
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.826609	valid_1's auc: 0.787651
+[2000]	training's auc: 0.855545	valid_1's auc: 0.792139
+[3000]	training's auc: 0.877377	valid_1's auc: 0.793175
+Early stopping, best iteration is:
+[3752]	training's auc: 0.891582	valid_1's auc: 0.793482
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.826409	valid_1's auc: 0.788818
+[2000]	training's auc: 0.855482	valid_1's auc: 0.792325
+[3000]	training's auc: 0.877785	valid_1's auc: 0.793181
+Early stopping, best iteration is:
+[3550]	training's auc: 0.888226	valid_1's auc: 0.793492
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.825969	valid_1's auc: 0.789584
+[2000]	training's auc: 0.855167	valid_1's auc: 0.793396
+[3000]	training's auc: 0.877727	valid_1's auc: 0.794003
+Early stopping, best iteration is:
+[2875]	training's auc: 0.875285	valid_1's auc: 0.794059
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.827314	valid_1's auc: 0.784207
+[2000]	training's auc: 0.856521	valid_1's auc: 0.789142
+[3000]	training's auc: 0.878721	valid_1's auc: 0.790342
+Early stopping, best iteration is:
+[3660]	training's auc: 0.89137	valid_1's auc: 0.790754
+   35 | 29m24s | [35m   0.79362[0m | [32m            0.7449[0m | [32m         0.0121[0m | [32m     7.6874[0m | [32m           30.2915[0m | [32m          0.0065[0m | [32m     30.0636[0m | [32m     7.4877[0m | [32m      6.0623[0m | [32m     0.8181[0m | 
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.855041	valid_1's auc: 0.794776
+[2000]	training's auc: 0.893868	valid_1's auc: 0.796531
+Early stopping, best iteration is:
+[2207]	training's auc: 0.900286	valid_1's auc: 0.796658
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.855065	valid_1's auc: 0.791779
+[2000]	training's auc: 0.893023	valid_1's auc: 0.792286
+Early stopping, best iteration is:
+[1953]	training's auc: 0.891581	valid_1's auc: 0.792335
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.854811	valid_1's auc: 0.792645
+[2000]	training's auc: 0.893433	valid_1's auc: 0.793496
+Early stopping, best iteration is:
+[2526]	training's auc: 0.908844	valid_1's auc: 0.793636
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.855117	valid_1's auc: 0.793003
+Early stopping, best iteration is:
+[1711]	training's auc: 0.883851	valid_1's auc: 0.793648
+[LightGBM] [Warning] Accuracy may be bad since you didn't set num_leaves and 2^max_depth > num_leaves
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.855774	valid_1's auc: 0.788116
+[2000]	training's auc: 0.89409	valid_1's auc: 0.789448
+Early stopping, best iteration is:
+[1929]	training's auc: 0.89172	valid_1's auc: 0.789534
+   36 | 15m56s |    0.79316 |             0.6604 |          0.0230 |     14.9492 |             4.5184 |           0.3992 |      31.6819 |      9.8273 |       9.8509 |      0.9382 | 
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.872291	valid_1's auc: 0.795178
+Early stopping, best iteration is:
+[1617]	training's auc: 0.903178	valid_1's auc: 0.795705
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.872349	valid_1's auc: 0.791667
+Early stopping, best iteration is:
+[1559]	training's auc: 0.900556	valid_1's auc: 0.792465
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.873142	valid_1's auc: 0.792317
+Early stopping, best iteration is:
+[1061]	training's auc: 0.876524	valid_1's auc: 0.79241
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.872334	valid_1's auc: 0.79319
+Early stopping, best iteration is:
+[963]	training's auc: 0.870178	valid_1's auc: 0.793263
+Training until validation scores don't improve for 200 rounds.
+[1000]	training's auc: 0.873596	valid_1's auc: 0.789274
+[2000]	training's auc: 0.919478	valid_1's auc: 0.790372
+Early stopping, best iteration is:
+[1969]	training's auc: 0.918355	valid_1's auc: 0.790412
+   37 | 14m00s |    0.79276 |             0.7687 |          0.0303 |     14.8954 |            19.0735 |           0.2870 |      30.5698 |      5.9783 |       8.7175 |      0.9182 | 
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[313]	training's auc: 0.930784	valid_1's auc: 0.793329
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[301]	training's auc: 0.930205	valid_1's auc: 0.789084
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[211]	training's auc: 0.91026	valid_1's auc: 0.790423
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[316]	training's auc: 0.931976	valid_1's auc: 0.789801
+Training until validation scores don't improve for 200 rounds.
+Early stopping, best iteration is:
+[268]	training's auc: 0.927039	valid_1's auc: 0.785326
+   38 | 05m35s |    0.78954 |             0.7366 |          0.0700 |     13.6629 |             7.2265 |           0.7865 |     118.8892 |      8.2956 |       9.6567 |      0.8679 | 
+-----------------------------------------------------
+Final Results
+LGB: 0.793617
