@@ -1,0 +1,32 @@
+nohup: 忽略输入
+Train samples: 307511, test samples: 48744
+/usr/anaconda3/lib/python3.6/site-packages/numpy/lib/function_base.py:4033: RuntimeWarning: All-NaN slice encountered
+  r = func(a, **kwargs)
+catboost_bo.py:149: RuntimeWarning: All-NaN axis encountered
+  df['ext_source3'] = np.nanmin(df[['EXT_SOURCE_1', 'EXT_SOURCE_2', 'EXT_SOURCE_3']], axis=1)
+Bureau df shape: (305811, 254)
+Process bureau and bureau_balance - done in 41s
+Previous applications df shape: (338857, 306)
+Process previous_applications - done in 30s
+Pos-cash balance df shape: (337252, 151)
+Process POS-CASH balance - done in 69s
+Installments payments df shape: (339587, 157)
+Process installments payments - done in 86s
+Credit card balance df shape: (103558, 261)
+Process credit card balance - done in 42s
+[31mInitialization[0m
+[94m------------------------------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |     depth |   l2_leaf_reg |   learning_rate |   model_size_reg |       rsm |   subsample | 
+    1 | 166m43s | [35m   0.79507[0m | [32m   4.0649[0m | [32m       0.1204[0m | [32m         0.0169[0m | [32m          0.2139[0m | [32m   0.9375[0m | [32m     0.8562[0m | 
+    2 | 129m53s |    0.79344 |    6.1232 |        0.0428 |          0.0154 |           0.3738 |    0.8798 |      0.8790 | 
+    3 | 187m15s |    0.79397 |    4.6340 |        0.3155 |          0.0127 |           0.3610 |    0.9729 |      0.9500 | 
+Training has stopped (degenerate solution on iteration 1027, probably too small l2-regularization, try to increase it)
+Training has stopped (degenerate solution on iteration 1287, probably too small l2-regularization, try to increase it)
+    4 | 76m10s |    0.79080 |    7.5274 |        0.0272 |          0.0200 |           0.4809 |    0.8430 |      0.9515 | 
+    5 | 165m06s | [35m   0.79532[0m | [32m   4.4489[0m | [32m       0.2462[0m | [32m         0.0176[0m | [32m          0.4856[0m | [32m   0.9695[0m | [32m     0.8193[0m | 
+[31mBayesian Optimization[0m
+[94m------------------------------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |     depth |   l2_leaf_reg |   learning_rate |   model_size_reg |       rsm |   subsample | 
+    6 | 270m49s |    0.79142 |    9.9993 |        0.4921 |          0.0051 |           0.0445 |    0.8897 |      0.8012 | 
+    7 | 166m39s |    0.79378 |    4.0024 |        0.4888 |          0.0113 |           0.0444 |    0.8801 |      0.9144 | 
+    8 | 191m11s |    0.79097 |    9.9959 |        0.4929 |          0.0077 |           0.0337 |    0.8235 |      0.9401 | 
